@@ -1,0 +1,129 @@
+<!--basic structure of HTML CODE HTML – HyperText Markup Language-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!--Add navigation links to: Home, About, Projects, Contact-->
+    <!--HEADER-->
+    <!-- Include your nameand a brief taglineabout yourself -->
+    <header id="INTRO" class="INTRO">
+        <h1>HIMANI DHAWAN</h1>
+        <blockquote>
+            "I’m an 18-year-old B.Tech student in Computer Science at Guru Tegh Bahadur 4th Centenary Engineering
+            College, currently diving into the world of web development." 💻
+            <br>
+            "Passionate about technology and coding, Im learning HTML, CSS, and JavaScript to build interactive
+            websites." 💻
+        </blockquote>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#HOME">HOME</a> </li>
+            <li><a href="#ABOUT" class="current">ABOUT</a></li>
+            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!--ABOUT SECTION-->
+    <!--Write a short bioabout yourself-->
+    <section id="ABOUT" class="ABOUT">
+        <h2>✨About Me</h2>
+        <p>
+            Hello! I'm Himani Dhawan, an 18-year-old B.Tech Computer Science student at Guru Tegh Bahadur 4th Centenary
+            Engineering College (GTB4CEC). This is my first portfolio website, created as part of my web development
+            assignment.
+        </p>
+        <p>
+            I'm currently in second year of college and looking forward to develop a skill . I’m currently learning
+            HTML, CSS, and JavaScript, and I'm building the foundations of front-end development. I’m also interested in
+            Data Structures and Algorithms (DSA).I will try to do my best .
+        </p>
+        <p>
+            I'm passionate about technology, eager to learn, and excited about where this journey will take me.This
+            portfolio marks the beginning of my growth as a developer. 😊
+        </p>
+    </section>
+    <!--PROJECTS SECTION-->
+    <!--3 projects to be shown-->
+    <section id="PROJECTS" class="PROJECTS">
+        <h2>PROJECTS</h2>
+        <div class="container">
+            <div class="item">
+                <h3>PROJECT 1</h3>
+                <p>
+                    Build Your First Portfolio Website using HTML and CSS.
+                    <br>
+                    Develop a well-structured portfolio website that showcases your skills, qualifications,
+                    and project experience in a visually engaging manner
+                </p>
+                <a href="index.html" target="_blank">my first website</a><br>
+            </div>
+            <div class="item">
+                <h3>PROJECT 2</h3>
+                <p>COMING SOON.......</p>
+                <br>
+            </div>
+            <div class="item">
+                <h3>PROJECT 3</h3>
+                <p>COMING SOON.......</p><br>
+            </div>
+        </div>
+    </section>
+    <!--CONTACTS SECTION-->
+    <!-- a simple form with:• Name (input) • Email (input)
+ • Message (textarea)• Submit Button-->
+    <section id="CONTACT" class="CONTACT">
+        <form><br><br>
+            <h4>REGISTRATION FORM</h4>
+            <label for="name">NAME :</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" required /><br><br>
+            <label for="email">EMAIL :</label>
+            <input type="email" id="email" name="email" placeholder="enter email id"><br><br>
+            <textarea name="message" rows="4" cols="50" placeholder="Enter your message here..."
+                required></textarea><br><br>
+            <input type="submit" value="submit"><br><br>
+        </form>
+    </section>
+    <!--HOME SECTION-->
+    <!--PARAGRAPH ON "MY FAVOURITE HOBBY" ,including an ordered list (ol)of three benefitsof the hobby.-->
+    <section id="HOME" class="HOME">
+        <h2>MY FAVOURITE HOBBY</h2>
+        <h3>AEROBICS</h3>
+        <P>Aerobics is a form of energetic physical activity that involves rhythmic movements and is often done with
+            music. It helps improve heart health, boosts energy, reduces stress, and supports both mental and physical
+            well-being. As a fun and effective workout, it’s a great way to stay fit and feel good!</P>
+        <ol>
+            <li>Improves Heart Health</li>
+            <li>Boosts Energy and Stamina</li>
+            <li>Reduces Stress and Improves Mood</li>
+        </ol>
+    </section>
+    <!--links to my social media profiles i not made account in many places so i have just added
+linkedin and istagram and github-->
+    <footer>
+        <h5>contact me...</h5>
+        <a href="https://www.linkedin.com/in/himani-dhawan-99b29332b"><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href="https://www.instagram.com/himanidhawan_/profilecard/?igsh=MXh3cThzYTVhOWRw"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/himanidhawan4"><i class="fa-brands fa-square-github"></i></a>
+    </footer>
+</body>
+
+</html>
